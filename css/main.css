@@ -148,3 +148,18 @@
   padding: 10px;
   border-radius: 8px;
 }
+
+@media (max-width: 375px) {
+  .menu {
+    display: none;
+  }
+
+  .post {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: 100%;
+    padding: 10px;
+  }
+}
